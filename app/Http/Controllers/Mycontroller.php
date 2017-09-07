@@ -9,32 +9,32 @@ use Illuminate\Support\Facades\Validator;
 class Mycontroller extends Controller
 {
     //
-	public function Tong(Request $request)
+	public function Tong(tinhRequest $request)
 	{
 		$a = $request->a;
 		$b = $request->b;
 		$kq = $a + $b;
 		echo "Tong la:"+$kq;
-		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
 		
 	}
-	public function hieu(Request $request)
+	public function hieu(tinhRequest $request)
 	{
 		$a = $request->a;
 		$b = $request->b;
 		$kq = $a - $b;
 		echo "Hieu la:"+$kq;
-		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
 		
 	}
 	
-	public function Tich(Request $request)
+	public function Tich(tinhRequest $request)
 	{
 		 $a = $request->a;
 		$b = $request->b;
 		$kq = $a * $b;
 		echo "Tich la:".$kq;
-		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
 		
 	}
 	
@@ -64,7 +64,7 @@ class Mycontroller extends Controller
 			echo "<br> Hệ số b phải khác 0";
 			echo "<br><a href='thuong'>Thực hiện lại phép toán</a>" ;	
 		}
-		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
 		
 	}
 }

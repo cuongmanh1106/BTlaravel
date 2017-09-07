@@ -17,6 +17,9 @@
 Route::get('/',function(){
 	return view('form/index');
 });
+Route::get('index',function(){
+	return view('form/index');
+});
 //tong
 Route::get('tong',function(){
 	return view('form/tong');

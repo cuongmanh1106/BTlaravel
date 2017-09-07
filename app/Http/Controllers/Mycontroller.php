@@ -15,7 +15,7 @@ class Mycontroller extends Controller
 		$b = $request->b;
 		$kq = $a + $b;
 		echo "Tong la:"+$kq;
-		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
 		
 	}
 	public function hieu(tinhRequest $request)
@@ -24,7 +24,7 @@ class Mycontroller extends Controller
 		$b = $request->b;
 		$kq = $a - $b;
 		echo "Hieu la:"+$kq;
-		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
 		
 	}
 	
@@ -34,7 +34,7 @@ class Mycontroller extends Controller
 		$b = $request->b;
 		$kq = $a * $b;
 		echo "Tich la:".$kq;
-		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
 		
 	}
 	
@@ -64,7 +64,7 @@ class Mycontroller extends Controller
 			echo "<br> Hệ số b phải khác 0";
 			echo "<br><a href='thuong'>Thực hiện lại phép toán</a>" ;	
 		}
-		echo "<br><a href='BTlaravel/'>Quay lai Trang Chu</a>" ;
+		echo "<br><a href='index'>Quay lai Trang Chu</a>" ;
 		
 	}
 }

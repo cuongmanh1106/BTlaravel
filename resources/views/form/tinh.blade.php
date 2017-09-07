@@ -32,7 +32,7 @@
     </form>
 </div>
 <hr />
-<a href="BTlaravel/" class="btn btn-primary">Quay lại</a>
+<a href="index" class="btn btn-primary">Quay lại</a>
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
